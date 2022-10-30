@@ -69,7 +69,7 @@ private val DarkColors = darkColorScheme(
 )
 
 @Composable
-fun ComposeMVISampleTheme(
+fun AppTheme(
     useDarkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable() () -> Unit
 ) {
